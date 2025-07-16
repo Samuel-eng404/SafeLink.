@@ -95,11 +95,11 @@ graph TD;
 
 #### 👨‍👧 Parent Bracelet
 
-[Parent Bracelet Hardware](images/Parent-Hardware-Design.png)
+[Parent Bracelet Hardware](images/Parent Hardware Design.png)
 
 #### 🧒 Child Bracelet
 
-[Child Bracelet Hardware](images/Child-Hardware-Design.png)
+[Child Bracelet Hardware](images/Child Hardware Design.png)
 
 ## 📁 Project Structure
 
