@@ -66,5 +66,5 @@ graph TD;
 ```
 ## 📄 Project Documents
 
-- [Child Bracelet (1).pdf](./file1.pdf)
-- [View Report 2 (PDF)](./file2.pdf)
+- [Child Bracelet Schematic](Child-Bracelet-Schematic.pdf)
+- [Parent Bracelet Schematic](Parent-Bracelet-Schematic.pdf)
