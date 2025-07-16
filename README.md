@@ -1,21 +1,6 @@
 # SafeLink – ESP32-Based Proximity Bracelet System
 
-SafeLink is a graduation project developed to establish a **wireless proximity link** between parents and their children using the **D1 Mini ESP32**. The system ensures real-time monitoring, directional guidance, and safety alerts through a wearable device, helping prevent child abduction or unexpected separation.
-
-## 🛠️ Project Overview
-
-- **Platform:** ESP32 (D1 Mini)
-- **Parent Bracelet Features:**
-  - Wi-Fi communication (AP + STA modes)
-  - Real-time distance estimation using RSSI
-  - Compass-based directional arrow pointing toward the child
-  - TFT display (showing time, battery, distance, status, and icons)
-  - Buzzer and vibration motor for alerts
-  - Reed switch for tamper detection
-- **Child Bracelet Features (separate repo or code):**
-  - Sends RSSI + battery + tamper status to the parent bracelet
-  - Detects SOS button press
-  - Secured with a reed switch
+**SafeLink** is a smart wearable system designed to enhance the safety of children and elderly individuals. It establishes a wireless proximity link between two ESP32-based bracelets—one worn by a parent or caregiver, and the other by a child or dependent. The system provides real-time distance estimation, directional guidance, and alert feedback to help prevent separation in crowded or hazardous environments.
 
 ## 💡 Key Features
 
@@ -45,16 +30,25 @@ SafeLink is a graduation project developed to establish a **wireless proximity l
   <img src="https://github.com/user-attachments/assets/06812145-f4ab-43a8-8584-94b006f13d7e" width="350" height="350" alt="Screenshot 2" />
 </div>
 
-## 📦 Hardware Components
+🧰 Hardware Components
+📟 Parent Bracelet
+Component	Description
+D1 Mini ESP32	Microcontroller with built-in WiFi & BLE
+GC9A01 TFT Display	1.28" round LCD for direction and alerts
+QMC5883L Compass	Digital magnetometer for heading calculation
+Piezo Buzzer	Audio alert for out-of-range warnings
+Vibration Motor	Haptic feedback for silent alerts
+TP4056 Charger Module	Li-Po battery charging and protection
+Li-Po Battery	Rechargeable power supply
+Reed Switch (optional)	Can be used for manual alerts or enclosure triggers
 
-| Component            | Description                          |
-|----------------------|--------------------------------------|
-| D1 Mini ESP32        | Wi-Fi microcontroller                |
-| QMC5883L Compass     | For directional guidance             |
-| TFT LCD (gc9a01)     | Display info on the parent bracelet  |
-| Buzzer & Vibration   | For alerts                           |
-| Reed Switch          | Detect bracelet removal (child side) |
-| Battery & Charger    | Power source                         |
+🧒 Child Bracelet
+Component	Description
+D1 Mini ESP32	Microcontroller with built-in WiFi & BLE
+Vibration Motor	Haptic feedback for alert reception
+Reed Switch	Tamper detection for unauthorized removal
+TP4056 Charger Module	Li-Po battery charging and protection
+Li-Po Battery	Rechargeable power supply
 
 ## 🧪 How It Works
 
@@ -68,3 +62,13 @@ graph TD;
 
 - [Child Bracelet Schematic](Child-Bracelet-Schematic.pdf)
 - [Parent Bracelet Schematic](Parent-Bracelet-Schematic.pdf)
+
+## 📁 Project Structure
+
+| File | Description |
+|------|-------------|
+| `Parent_Code.ino` | Arduino code for the parent bracelet |
+| `Child_Code.ino` | Arduino code for the child bracelet |
+| `Parent-Bracelet-Schematic.pdf` | Circuit schematic for parent device |
+| `Child-Bracelet-Schematic.pdf` | Circuit schematic for child device |
+| `README.md` | This file |
