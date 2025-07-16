@@ -24,7 +24,8 @@
 - MechaQMC5883.h
 - TFT_eSPI.h
 
-🧰 Hardware Components
+## 📦 Hardware Components
+
 👨‍👧 Parent Bracelet
 | **Component**              | **Description**                              |
 | -------------------------- | -------------------------------------------- |
