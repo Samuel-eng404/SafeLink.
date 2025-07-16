@@ -66,5 +66,5 @@ graph TD;
 ```
 ## 📄 Project Documents
 
-- [Child Bracelet Schematic](Child-Bracelet-Schematic.pdf.pdf)
-- [Parent Bracelet Schematic](Parent-Bracelet-Schematic.pdf.pdf)
+- [Child Bracelet Schematic](Child-Bracelet-Schematic.pdf)
+- [Parent Bracelet Schematic](Parent-Bracelet-Schematic.pdf)
