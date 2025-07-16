@@ -36,7 +36,6 @@
 | **Vibration Motor**        | Haptic feedback for silent alerts            |
 | **TP4056 Charger Module**  | Li-Po battery charging and protection        |
 | **Li-Po Battery**          | Rechargeable power supply                    |
-| **Reed Switch (optional)** | Manual alerts or case-open detection         |
 
 
 🧒 Child Bracelet
