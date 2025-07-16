@@ -47,6 +47,17 @@
 | **TP4056 Charger Module** | Li-Po battery charging and protection     |
 | **Li-Po Battery**         | Rechargeable power supply                 |
 
+## 📁 Project Structure
+
+| File | Description |
+|------|-------------|
+| `Parent_Code.ino` | Arduino code for the parent bracelet |
+| `Child_Code.ino` | Arduino code for the child bracelet |
+| `Parent-Bracelet-Schematic.pdf` | Circuit schematic for parent device |
+| `Child-Bracelet-Schematic.pdf` | Circuit schematic for child device |
+| `README.md` | This file |
+
+
 
 ## 🧪 How It Works
 
@@ -91,22 +102,27 @@ graph TD;
 - [Child Bracelet Schematic](Child-Bracelet-Schematic.pdf)
 - [Parent Bracelet Schematic](Parent-Bracelet-Schematic.pdf)
 
-### 📸 Hardware Design Preview
+## 📸 Hardware Design Preview
 
-#### 👨‍👧 Parent Bracelet
+### 👨‍👧 Parent Bracelet
 
-![Parent Bracelet Hardware](images/Parent-Hardware-Design.png)
+![Parent Bracelet Hardware](Parent%20Hardware%20Design.png)
 
-#### 🧒 Child Bracelet
+### 🧒 Child Bracelet
 
-[Child Bracelet Hardware](images/Child Hardware Design.png)
+![Child Bracelet Hardware](Child%20Hardware%20Design.png)
 
-## 📁 Project Structure
+## 📌 Notes
 
-| File | Description |
-|------|-------------|
-| `Parent_Code.ino` | Arduino code for the parent bracelet |
-| `Child_Code.ino` | Arduino code for the child bracelet |
-| `Parent-Bracelet-Schematic.pdf` | Circuit schematic for parent device |
-| `Child-Bracelet-Schematic.pdf` | Circuit schematic for child device |
-| `README.md` | This file |
+- For accurate compass readings, calibrate it yourself
+- RSSI distance readings may vary based on surroundings.
+- Ensure good battery charge before testing.
+
+## 📃 License
+
+This project is open-source under the [MIT License](LICENSE). Feel free to use, modify, and distribute with attribution.
+
+## 🙌 Acknowledgments
+
+- Helwan University – Faculty of Engineering, ECE Department
+- Based on ESP32 and Arduino open-source frameworks
