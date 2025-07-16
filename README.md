@@ -91,6 +91,16 @@ graph TD;
 - [Child Bracelet Schematic](Child-Bracelet-Schematic.pdf)
 - [Parent Bracelet Schematic](Parent-Bracelet-Schematic.pdf)
 
+### 📸 Hardware Design Preview
+
+#### 👨‍👧 Parent Bracelet
+
+![Parent Bracelet Hardware](images/Parent-Hardware-Design.png)
+
+#### 🧒 Child Bracelet
+
+![Child Bracelet Hardware](images/Child-Hardware-Design.png)
+
 ## 📁 Project Structure
 
 | File | Description |
