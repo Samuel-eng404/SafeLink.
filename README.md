@@ -63,4 +63,8 @@ graph TD;
     Child[Child Bracelet] -->|Wi-Fi RSSI, Battery, Reed| Parent[Parent Bracelet]
     Parent -->|Display: Arrow, Time, Alerts| TFT[TFT Screen]
     Parent -->|Sound + Vibration| Alerts[Alert System]
+```
+## 📄 Project Documents
 
+- [Child Bracelet (1).pdf](./file1.pdf)
+- [View Report 2 (PDF)](./file2.pdf)
