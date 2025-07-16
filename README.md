@@ -28,9 +28,22 @@ SafeLink is a graduation project developed to establish a **wireless proximity l
   - Distance thresholds
   - Tampering (reed switch)
   - Disconnection or timeout
+ 
+## 🧰 Libraries Used
+
+- WiFi.h
+- WiFiUdp.h
+- NTPClient.h
+- time.h
+- Wire.h
+- MechaQMC5883.h
+- TFT_eSPI.h
 
 ## 📷 Screenshots / Media
-_Add images here, like TFT display examples, PCB design, or 3D watch casing._
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ad7c615a-64eb-40ef-98b1-5f8ace6e6ffd" width="350" height="350" alt="Screenshot 1" style="margin-right: 20px;" />
+  <img src="https://github.com/user-attachments/assets/06812145-f4ab-43a8-8584-94b006f13d7e" width="350" height="350" alt="Screenshot 2" />
+</div>
 
 ## 📦 Hardware Components
 
@@ -50,3 +63,4 @@ graph TD;
     Child[Child Bracelet] -->|Wi-Fi RSSI, Battery, Reed| Parent[Parent Bracelet]
     Parent -->|Display: Arrow, Time, Alerts| TFT[TFT Screen]
     Parent -->|Sound + Vibration| Alerts[Alert System]
+
